@@ -38,6 +38,7 @@ export default function App() {
           <Outlet />
         </div>
         <Extrato transacoes={transacoes} />
+        <noscript data-testid="location-pathname">{location.pathname}</noscript>
       </main>
     </>
   );
